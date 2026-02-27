@@ -1,7 +1,7 @@
-package com.example.harbornotes.data.repository
+package com.rustharbor.harbornotes.data.repository
 
-import com.example.harbornotes.data.local.NoteDao
-import com.example.harbornotes.data.model.Note
+import com.rustharbor.harbornotes.data.local.NoteDao
+import com.rustharbor.harbornotes.data.model.Note
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

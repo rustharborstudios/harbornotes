@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.harbornotes"
+    namespace = "com.rustharbor.harbornotes"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.harbornotes"
+        applicationId = "com.rustharbor.harbornotes"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -53,6 +53,8 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))

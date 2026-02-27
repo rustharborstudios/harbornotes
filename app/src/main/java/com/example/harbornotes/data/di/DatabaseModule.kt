@@ -1,11 +1,11 @@
-package com.example.harbornotes.data.di
+package com.rustharbor.harbornotes.data.di
 
 import android.content.Context
 import androidx.room.Room
-import com.example.harbornotes.data.local.HarborNotesDatabase
-import com.example.harbornotes.data.local.NoteDao
-import com.example.harbornotes.data.repository.NoteRepository
-import com.example.harbornotes.data.repository.NoteRepositoryImpl
+import com.rustharbor.harbornotes.data.local.HarborNotesDatabase
+import com.rustharbor.harbornotes.data.local.NoteDao
+import com.rustharbor.harbornotes.data.repository.NoteRepository
+import com.rustharbor.harbornotes.data.repository.NoteRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,10 +1,10 @@
-package com.example.harbornotes.ui
+package com.rustharbor.harbornotes.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.example.harbornotes.ui.navigation.NavGraph
-import com.example.harbornotes.ui.theme.HarborNotesTheme
+import com.rustharbor.harbornotes.ui.navigation.NavGraph
+import com.rustharbor.harbornotes.ui.theme.HarborNotesTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

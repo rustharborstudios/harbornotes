@@ -1,4 +1,4 @@
-package com.example.harbornotes.data.model
+package com.rustharbor.harbornotes.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
